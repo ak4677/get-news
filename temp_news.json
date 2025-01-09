@@ -1,0 +1,123 @@
+{
+    "status": "ok",
+    "totalResults": 9,
+    "articles": [
+        {
+            "source": {
+                "id": "news24",
+                "name": "News24"
+            },
+            "author": "Iavan Pijoos",
+            "title": "Family affair as Nomsa Masuku's nephew appears in court for R1.2m graft case",
+            "description": "Ciniso Masuku, made his first appearance in the Specialised Commercial Crimes Court sitting in Palm Ridge on Tuesday.",
+            "url": "https://www.news24.com/news24/southafrica/news/family-affair-as-nomsa-masukus-nephew-appears-in-court-for-r12m-graft-case-20241210",
+            "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/9802/d0416101470e40139a15a65cb66eae9a.jpg",
+            "publishedAt": "2024-12-10T13:23:26",
+            "content": "A third person has been arrested and charged in connection with the R1.2-million fraud case of Nomsa Masuku, an Electoral Commission of South Africa (IEC) commissioner.\r\nCiniso Masuku, who is the nep… [+381 chars]"
+        },
+        {
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "Rowan Davies",
+            "title": "Disney casts The Bear’s Jeremy Allen White as the son of intergalactic crime boss Jabba the Hut in the The Mandalorian and Grogu",
+            "description": "Time to return to Tatooine",
+            "url": "https://www.techradar.com/streaming/entertainment/disney-casts-the-bears-jeremy-allen-white-as-the-son-of-intergalactic-crime-boss-jabba-the-hut-in-the-the-mandalorian-and-grogu",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/SNyt3DqYFefJuZWZrSToCJ-1200-80.jpg",
+            "publishedAt": "2024-12-10T11:50:09Z",
+            "content": "Jeremy Allen White is swapping the kitchen for Tatooine as Disney casts him in the upcoming Star Wars movie The Mandalorian and Grogu. Directed by Jon Favreau and co-written with Lucasfilm creative d… [+2585 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": null,
+            "title": "Lawmaker who was member of ruling coalition murdered in Mexico; another man found dead at crime scene",
+            "description": "Benito Aguas Atlahua was a member of the Ecologist Green Party of Mexico, part of the ruling coalition that controls congress.",
+            "url": "https://www.cbsnews.com/news/congressman-shot-dead-mexico-benito-aguas-atlahua/",
+            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/12/10/8a42bf1d-4f4c-444d-b42e-2b4794abc9e9/thumbnail/1200x630/278851d3cfff700470516500b306522d/lawmaker-469875035-1123529779779996-5021471296378314602-n.jpg?v=d633d0331cc96a4353754b3de830df72",
+            "publishedAt": "2024-12-10T11:33:28+00:00",
+            "content": "A Mexican congressman who was a member of the ruling coalition was shot dead in coastal Veracruz state on Monday, officials said, marking yet another politician being targeted by violence in the coun… [+2913 chars]"
+        },
+        {
+            "source": {
+                "id": "nbc-news",
+                "name": "NBC News"
+            },
+            "author": "NBC News",
+            "title": "Syria live updates: Rebel leader vows to pursue Assad officials 'involved in war crimes'",
+            "description": "Follow NBC News for live updates of the latest coverage from Syria where rebels led by the Hayat Tahrir al-Sham has ousted President Bashar Assad's regime.",
+            "url": "https://www.nbcnews.com/news/world/live-blog/syria-live-updates-rebel-leader-assad-torture-israel-buffer-zone-rcna183554",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-12/241210-damascus-mb-0826-55de9c.jpg",
+            "publishedAt": "2024-12-10T09:36:14Z",
+            "content": "Russia is continuing its dialogue with all countries in the region, Kremlin spokesperson Dmitry Peskov said today when asked his his country feared losing military influence in the Middle East follow… [+454 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-12-10T06:30:46Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": "msnbc",
+                "name": "MSNBC"
+            },
+            "author": null,
+            "title": "NEW REPORT: Staffers 'were terrified' of leaks by Gabbard when investigating war crimes in Syria",
+            "description": "According to a bombshell report by NBC's Dan De Luca, Democratic and Republican congressional staffers \"were terrified\" of leaks by Tulsi Gabbard when a Syrian witness was called to testify against the brutal Assad dictatorship.",
+            "url": "https://www.msnbc.com/inside-with-jen-psaki/watch/new-report-staffers-were-terrified-of-leaks-by-gabbard-when-investigating-war-crimes-in-syria-226617413963",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2024_12/1733800757620_n_psaki_panel_241209_1920x1080-e5fwca.jpg",
+            "publishedAt": "2024-12-10T03:19:25Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "Kevin Shalvey, Aaron Katersky, Emily Shapiro, Josh Margolin, Meredith Deliso",
+            "title": "UnitedHealthcare CEO shooting latest: Person of interest Luigi Mangione charged with 5 crimes in Pennsylvania",
+            "description": "Luigi Mangione was arrested by Altoona police on Monday.",
+            "url": "https://abcnews.go.com/US/unitedhealthcare-ceo-shooting-latest-net-closing-suspect-new/story?id=116591169",
+            "urlToImage": "https://i.abcnewsfe.com/a/e407f541-b2ef-4a7b-9c1e-42cf4f5f6354/luigi-mangione-ht-gmh-241209_1733772503824_hpMain_16x9.jpg?w=1600",
+            "publishedAt": "2024-12-10T00:13:00Z",
+            "content": "Luigi Mangione is in custody in Altoona, Pennsylvania, as a person of interest in connection with the brazen Midtown Manhattan murder of UnitedHealthcare CEO Brian Thompson last week, according to au… [+4502 chars]"
+        },
+        {
+            "source": {
+                "id": "the-hill",
+                "name": "The Hill"
+            },
+            "author": "Zach Schonfeld",
+            "title": "Person of interest in UnitedHealthcare CEO shooting faces five charges in Pennsylvania",
+            "description": "Luigi Mangione, the person of interest being questioned by police in the killing of UnitedHealthcare CEO Brian Thompson, has been charged with five crimes in Pennsylvania after authorities arrested him Monday morning, according to a newly released criminal co…",
+            "url": "https://thehill.com/regulation/court-battles/5031116-luigi-mangione-court-unitedhealthcare-ceo/",
+            "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/12/AP24344749099118-e1733784605800.jpg?w=1280",
+            "publishedAt": "2024-12-09T22:50:18Z",
+            "content": "Skip to content\r\nLuigi Mangione, the person of interest being questioned by police in the killing of UnitedHealthcare CEO Brian Thompson, has been charged with five crimes in Pennsylvania after autho… [+1796 chars]"
+        },
+        {
+            "source": {
+                "id": "the-jerusalem-post",
+                "name": "The Jerusalem Post"
+            },
+            "author": null,
+            "title": "Congresswoman Nita Lowey: I am proud to stand with Israel",
+            "description": "Gantz: Security of Israel is above politics; PA: This is a crime.",
+            "url": "https://www.jpost.com/Arab-Israeli-Conflict/Gantz-Security-of-Israel-is-above-politics-Palestinians-This-is-a-crime-607595",
+            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/t_Article2016_ControlFaceDetect/448812",
+            "publishedAt": "2019-11-13T04:41:00Z",
+            "content": "US Ambassador David M. Friedman said the US stands “with our friend and ally Israel at this critical moment” on social media on Tuesday after roughly 170 rockets were fired on Israel from the Gaza St… [+6160 chars]"
+        }
+    ]
+}

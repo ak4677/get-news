@@ -7,6 +7,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+
 export default class App extends Component {
   constructor(){
     super();
@@ -30,7 +31,6 @@ export default class App extends Component {
     }
   }
   render() {
-    const apiKey=process.env.REACT_APP_API_KEY
     // const [alert,setalert]=useState(null);
 
     // const showalerts=(type, message)=>{

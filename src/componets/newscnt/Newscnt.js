@@ -5,7 +5,9 @@ import '../news/News.css'
 import Alerts from '../alert/Alerts'
 import Sppiner from '../sppiner/Sppiner'
 import PropTypes from 'prop-types'
+
 const apikeyinevn=process.env.REACT_APP_MYAPI;
+
 export class Newscnt extends Component {
   static defaultProps={
     category: 'general'
@@ -35,7 +37,7 @@ export class Newscnt extends Component {
     })
   }
   async componentDidMount(){
-    if(apikeyinevn){
+    if(apikeyinevn!=null){
       this.fetchingnews()
     }
     else{
@@ -57,11 +59,11 @@ export class Newscnt extends Component {
     this.fetchingnews()
   }
   apinotfount(){
-    if(!apikeyinevn){
-      return true
+    if(apikeyinevn!=null){
+      return false
     }
     else{
-      return false
+      return true
     }
   }
   render() {

@@ -6,7 +6,7 @@ import Alerts from '../alert/Alerts'
 import Sppiner from '../sppiner/Sppiner'
 import PropTypes from 'prop-types'
 
-const apikeyinevn=process.env.REACT_APP_MYAP;
+const apikeyinevn=process.env.REACT_APP_FMYAPI;
 
 export class Newscnt extends Component {
   static defaultProps={

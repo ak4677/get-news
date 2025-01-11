@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import News from '../news/News'
 import '../newscnt/Newscnt.css'
 import '../news/News.css'
+import Alerts from '../alert/Alerts'
 import Sppiner from '../sppiner/Sppiner'
 import PropTypes from 'prop-types'
+const apikeyinevn=process.env.REACT_APP_MYAPI;
 export class Newscnt extends Component {
   static defaultProps={
-    category: 'health'
+    category: 'general'
   }
   static propTypes={
     country: PropTypes.string
@@ -21,7 +23,7 @@ export class Newscnt extends Component {
     }
   }
   async fetchingnews(){
-    let api=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${process.env.REACT_APP_MYAPI}&page=1&pageSize=21`;
+    let api=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${apikeyinevn}&page=1&pageSize=21`;
     this.setState({loading: true})
     let data= await fetch(api);
     let parse=await data.json();
@@ -33,7 +35,18 @@ export class Newscnt extends Component {
     })
   }
   async componentDidMount(){
-    this.fetchingnews()
+    if(apikeyinevn){
+      this.fetchingnews()
+    }
+    else{
+      const sample =require("./temp_news.json")
+      console.log(sample)
+      this.setState({
+        articals: sample.articles,
+        pagecount: sample.totalResults,
+        loading: false
+      })
+    }
   }
   prevpagefun= async()=>{
     this.setState({page: this.state.page-1})
@@ -43,11 +56,20 @@ export class Newscnt extends Component {
     this.setState({page: this.state.page+1})
     this.fetchingnews()
   }
+  apinotfount(){
+    if(!apikeyinevn){
+      return true
+    }
+    else{
+      return false
+    }
+  }
   render() {
     return (
       <>
         <h1 className={`heading-${this.props.mode}`}> top {this.props.category} headlines from us</h1>
         {this.state.loading && <Sppiner/>}
+        {this.apinotfount() && <Alerts info="info"/>}
         <div className="news-container">
           {!(this.state.loading) && this.state.articals.map((element)=>{
           {return (element.url==="https://removed.com")?null:<div key={element.url}>

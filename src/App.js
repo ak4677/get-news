@@ -7,7 +7,9 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import { version } from 'react';
 
+console.log(version);
 export default class App extends Component {
   constructor(){
     super();

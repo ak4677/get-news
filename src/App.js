@@ -51,7 +51,8 @@ export default class App extends Component {
           <Navbar mode={this.state.mode} togglemode={this.togglemodefun}/>
           {/* <Alerts/> */}
           <Routes>
-            <Route exact path="/" element={<Newscnt key="general" mode={this.state.mode} country="us" category="general" />}/>
+          <Route exact path="/" element={<Newscnt key="general" mode={this.state.mode} country="us" category="general" />}/>
+            <Route exact path="/general" element={<Newscnt key="general" mode={this.state.mode} country="us" category="general" />}/>
             <Route exact path='/sports' element={<Newscnt  key="sports" mode={this.state.mode} country="us" category="sports" />}/>
             <Route exact path='/entertainment' element={<Newscnt key="entertainment" mode={this.state.mode} country="us" category="entertainment" />}/>
             <Route exact path='/health' element={<Newscnt key="health" mode={this.state.mode} country="us" category="health" />}/>

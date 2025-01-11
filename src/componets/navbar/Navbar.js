@@ -10,7 +10,7 @@ export class Navbar extends Component {
       <div>
           <nav className={`nav nav-${mode}`}>
               <div className={`left-nav`}>
-                  <li><Link to="/">General</Link></li>
+                  <li><Link to="/general">General</Link></li>
                   <li><Link to="/sports">Sports</Link></li>
                   <li><Link to="/entertainment">Entertainment</Link></li>
                   <li><Link to="/health">Health</Link></li>

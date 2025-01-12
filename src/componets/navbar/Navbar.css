@@ -11,6 +11,7 @@
     position: sticky;
 }
 .navbar{
+  display: block;
   position: sticky;
 }
 .nav-dark{
@@ -30,20 +31,29 @@
 .left-nav li{
     padding: 10px;
 }
-.left-nav li a{
+.left-nav li,div a{
   text-decoration: none;
   color: white;
 }
-.left-nav li a:hover{
+.left-nav li,div a:hover{
     color:aquamarine;
+}
+.home{
+  font-size: larger;
+  padding: 10px;
+  justify-self: center;
 }
 .right-nav{
     display: flex;
     float: right;
 }
-.right-nav div{
-  padding: 5px;
-}
+/* .right-nav label{
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+} */
 .right-nav input{
     padding: 10px;
     border: 2px solid rgb(187, 219, 187);
@@ -60,7 +70,7 @@
     display: block;
     width: 35px;
     height: 20px;
-    justify-self: center;
+    justify-items: center;
     align-self: center;
     margin-left: 5px;
     margin-right: 5px;
@@ -119,9 +129,39 @@
   .slider.round:before {
     border-radius: 50%;
   }
+  .bar{
+    display: none;
+  }
   @media screen and (max-width: 600px) {
+    .bar{
+      display: block;
+      margin: 10px;
+      font-size: larger;
+    }
+    .nav{
+      overflow: hidden;
+      display: flex;
+      position: relative;
+    }
+    #list{
+      display: none;
+    }
+    .home{
+      display: block;
+      position: relative;
+    }
     .left-nav{
-        display: inline-block;
+      display: inline-block;
+    }
+    .right-nav{
+      display: block;
+    }
+    .right-nav{
+      margin: 0;
+      position: absolute;
+      display: flex;
+      float: left;
+      right: 0;
     }
     .right-nav input{
       width: 15px;

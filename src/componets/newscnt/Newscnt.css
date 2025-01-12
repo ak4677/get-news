@@ -42,13 +42,14 @@ body::-webkit-scrollbar {
     background-color: rgb(92, 89, 89);
     cursor: auto;
 }
-.heading-light{
-    font: bold;
+.heading{
+    display: block;
     justify-self: center;
+    margin: 10px;
+}
+.heading-light{
     color: black;
 }
 .heading-dark{
-    font: bold;
-    justify-self: center;
     color: white;
 }

@@ -68,7 +68,7 @@ export class Newscnt extends Component {
   render() {
     return (
       <>
-        <h1 className={`heading-${this.props.mode}`}> top {this.props.category} headlines from us</h1>
+        <h1 className={`heading heading-${this.props.mode}`}> top {this.props.category} headlines from us</h1>
         {this.state.loading && <Sppiner/>}
         {this.apinotfount() && <Alerts info="info"/>}
         <div className="news-container">

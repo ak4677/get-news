@@ -7,7 +7,6 @@ import Sppiner from '../sppiner/Sppiner'
 import PropTypes from 'prop-types'
 
 const apikeyinevn=null;
-
 export class Newscnt extends Component {
   static defaultProps={
     category: 'general'

@@ -5,28 +5,29 @@ import {
 } from "react-router-dom";
 export class Navbar extends Component {
   render() {
-    let {mode,togglemode}=this.props;
+    let { mode, togglemode } = this.props;
     return (
-      <div>
-          <nav className={`nav nav-${mode}`}>
-              <div className={`left-nav`}>
-                  <li><Link to="/general">General</Link></li>
-                  <li><Link to="/sports">Sports</Link></li>
-                  <li><Link to="/entertainment">Entertainment</Link></li>
-                  <li><Link to="/health">Health</Link></li>
-                  <li><Link to="/science">Science</Link></li>
-                  <li><Link to="/business">Business</Link></li>
-                  <li><Link to="/technology">Technology</Link></li>
-              </div>
-              <div className='right-nav' >
-                <div>language</div>
-                  <label className="switch">
-                      <input type="checkbox" onClick={togglemode}/>
-                      <span className="slider round" ></span>
-                  </label>
-                  <input type='text'/>
-              </div>
-          </nav>
+      <div className='navbar'>
+        <nav className={`nav nav-${mode}`}>
+          <div className={`left-nav`}>
+            <li><Link to="/get-news">General</Link></li>
+            <li><Link to="/general">Sports</Link></li>
+            <li><Link to="/sports">Sports</Link></li>
+            <li><Link to="/entertainment">Entertainment</Link></li>
+            <li><Link to="/health">Health</Link></li>
+            <li><Link to="/science">Science</Link></li>
+            <li><Link to="/business">Business</Link></li>
+            <li><Link to="/technology">Technology</Link></li>
+          </div>
+          <div className='right-nav' >
+            <div>language</div>
+            <label className="switch">
+              <input type="checkbox" onClick={togglemode} />
+              <span className="slider round" ></span>
+            </label>
+            <input type='text' />
+          </div>
+        </nav>
       </div>
     )
   }

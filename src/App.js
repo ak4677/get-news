@@ -1,6 +1,5 @@
 import Navbar from './componets/navbar/Navbar'
 import React, {Component} from 'react'
-// import Alerts from './componets/Alerts'
 import Newscnt from './componets/newscnt/Newscnt'
 import {
   BrowserRouter as Router,
@@ -33,27 +32,13 @@ export default class App extends Component {
     }
   }
   render() {
-    // const [alert,setalert]=useState(null);
-
-    // const showalerts=(type, message)=>{
-    //   setalert({
-    //     msg:message,
-    //     typ: type
-    //   })
-    //   setTimeout(() => {
-    //     setalert(null)
-    //   }, 3000);
-    // }
-    // const rmalt=()=>
-    //   setalert(null)
-    // }
     return (
       <div>
         <Router>
           <Navbar mode={this.state.mode} togglemode={this.togglemodefun}/>
           {/* <Alerts/> */}
           <Routes>
-            <Route exact path="/" element={<Newscnt key="general" mode={this.state.mode} country="us" category="general" />}/>
+            <Route exact path="/get-news" element={<Newscnt key="general" mode={this.state.mode} country="us" category="general" />}/>
             <Route exact path="/general" element={<Newscnt key="general" mode={this.state.mode} country="us" category="general" />}/>
             <Route exact path='/sports' element={<Newscnt  key="sports" mode={this.state.mode} country="us" category="sports" />}/>
             <Route exact path='/entertainment' element={<Newscnt key="entertainment" mode={this.state.mode} country="us" category="entertainment" />}/>

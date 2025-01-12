@@ -10,6 +10,9 @@
     overflow: hidden;
     position: sticky;
 }
+.navbar{
+  position: sticky;
+}
 .nav-dark{
     color: white;
     background-color: black;
